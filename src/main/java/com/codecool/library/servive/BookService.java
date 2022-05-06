@@ -25,7 +25,6 @@ public class BookService {
         return bookRepository.getBook();
     }
 
-
     public long getGenre(String genre) {
         return bookRepository.getGenre(genre);
     }

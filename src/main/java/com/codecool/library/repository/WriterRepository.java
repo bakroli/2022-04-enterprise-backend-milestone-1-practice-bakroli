@@ -16,7 +16,6 @@ public class WriterRepository {
         this.writers = writers;
     }
 
-
     public void addWriter(Writer writer) {
         writers.add(writer);
     }
